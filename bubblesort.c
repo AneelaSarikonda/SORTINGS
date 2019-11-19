@@ -1,13 +1,7 @@
 #include<stdio.h>
-int main()
+void bubblesort(int array[],int n)
 {
-int array[10];
-int i,j,n,temp;
-printf("enter no:of elemnts in the array:\n");
-scanf("%d",&n);
-printf("enter elements into the array:\n");
-for(i=0;i<n;i++)
-scanf("%d",&array[i]);
+int i,j,temp;
 for(i = 0 ; i < n - 1; i++)
 {
 for(j = 0 ; j < n-i-1; j++)

@@ -1,16 +1,7 @@
 #include<stdio.h>
-int main()
+void selectionsort(int a[],int n)
 {
-int a[10];
-int n;
 int i,j,temp,min;
-printf("enter no:of elemnts in the array:\n");
-scanf("%d",&n);
-printf("enter elemnts of the array:\n");
-for(i=0;i<n;i++)
-scanf("%d",&a[i]);
-for(i=0;i<n;i++)
-printf("%d\t",a[i]);
 for(i=0;i<n-1;i++)
 {
   min=i;

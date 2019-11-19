@@ -1,14 +1,7 @@
 #include<stdio.h>
-int main()
+void insertionsort(int a[],int n)
 {
-int a[10];
-int n;
 int i,j,key;
-printf("enter no:of elemnts in the array:\n");
-scanf("%d",&n);
-printf("enter elemnts of the array:\n");
-for(i=0;i<n;i++)
-scanf("%d",&a[i]);
 for(i=1;i<n;i++)
 {
 	key=a[i];
