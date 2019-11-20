@@ -1,4 +1,5 @@
 #include<stdio.h>
+void merge(int *,int ,int,int);
 void mergesort(int a[],int lb,int ub)
 {
 int mid;
