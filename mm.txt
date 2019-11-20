@@ -12,3 +12,5 @@ mergesort.o: mergesort.c
 	gcc -c mergesort.c   
 quicksort.o: quicksort.c
 	gcc -c quicksort.c 
+
+asgjkleryukxcvbnm
